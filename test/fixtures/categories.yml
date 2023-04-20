@@ -1,10 +1,26 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 videogames:
   name: Videojuegos
-
 computers:
-  name: Informatica
+  name: Informática
 
 clothes:
   name: Ropa
+
+cars:
+  name: Coches
+
+music:
+  name: Música
+
+electronic:
+  name: Electrónica
+
+books:
+  name: Libros
+
+mobile:
+  name: Móviles
+
+sports:
+  name: Deportes

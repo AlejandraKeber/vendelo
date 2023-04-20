@@ -127,6 +127,7 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.14.2-x86_64-linux)
       racc (~> 1.4)
+    pagy (6.0.3)
     pg (1.4.6)
     pg_search (2.3.6)
       activerecord (>= 5.2)
@@ -217,6 +218,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  pagy (~> 6.0)
   pg (~> 1.1)
   pg_search (~> 2.3)
   puma (~> 5.0)
