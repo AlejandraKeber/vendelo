@@ -41,7 +41,7 @@ class ProductsController < ApplicationController
     authorize! product
     product.destroy
 
-    redirect_to products_path, notice: t('.destroyed')
+    redirect_to products_path, notice: t('.destroyed'), status: :see_other
   end
 
   private
